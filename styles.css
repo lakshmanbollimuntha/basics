@@ -1,0 +1,39 @@
+*.{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+.header{
+    background-color: rgb(182, 241, 93);
+    text-align:left ;
+    color: white;
+    padding: 5px 20px 15px 20px ;
+    border: 1px solid lightgrey;
+    border-radius:4px ;
+}
+.content{
+    background-color:#f2f2f2;
+    padding:5px 20px 15px 20px ;
+    border:1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="text"],textarea
+{
+    width: 100%;
+    padding:6px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background-color: #4daca1;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    
+}
